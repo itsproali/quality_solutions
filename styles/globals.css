@@ -1,0 +1,81 @@
+@import "~react-day-picker/dist/style.css";
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope", "Poppins", sans-serif !important;
+  background-color: #FCFDFF;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: 'Playfair Display SC', serif!important; */
+  font-family: "Manrope", "Poppins", sans-serif !important;
+}
+
+p {
+  font-family: "Manrope", "Poppins", sans-serif !important;
+}
+
+table {
+  font-family: "Manrope", "Poppins", sans-serif !important;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px 12px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+/* Prevent Printing */
+@media print {
+  body {
+    display: none;
+  }
+}
+
+/* AutoComplete bg remove */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Customize Scrollbar */
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 6px;
+}
